@@ -1262,6 +1262,15 @@ hr {
   height: 400px;
 }
 
+@media only screen and (max-width: 550px) {
+  .img-services-head {
+    width: 400px;
+  }
+  .content-services {
+    width: 300px;
+  }
+}
+
 .button {
   height: 60px;
   width: 350px;
