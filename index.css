@@ -1458,6 +1458,12 @@ a {
   margin: 15px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .influencer-btn {
+    margin-top: 30px;
+  }
+}
+
 .contact-us-btn a {
   text-decoration: none;
   border: 2px solid black;
@@ -1473,7 +1479,7 @@ a {
 
 .contact-us-btn a:hover {
   opacity: 1;
-  box-shadow: 0.1px 0.1px 0.1px 0.2px red;
+  /* box-shadow: 0.1px 0.1px 0.1px 0.2px red; */
 }
 
 @media only screen and (max-width: 1200px) {
